@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock title %}
+
+{% block body %}
+    <div class="container mt-4">
+        <h1 style="text-align: center; padding: 20px;">Editer le bien</h1>
+        {{  include('admin/_form.html.twig',{form: form, button: 'Editer'}) }}
+    </div>
+{% endblock body %}
